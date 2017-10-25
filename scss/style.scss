@@ -1,0 +1,97 @@
+body {
+  background: url(http://wallpapercave.com/wp/ZRPMVbm.jpg);
+  background-position: center center;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  position: relative;
+  margin-top: 60px;
+  bottom: 60px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  min-width: 768px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.jumbotron {
+  position: relative;
+  top: 20px;
+  bottom: 60px;
+  height: 100%;
+  width: 100%;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 48px;
+  padding-botton:48px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: " ";
+  margin-right: -15px;
+  margin-left: -15px;
+  
+}
+.col-xs-12{
+  width: 100%;
+}
+
+.h1 {
+  font-size: 68px;
+}
+.h2 {
+  font-size: 38px;
+}
+
+.sallypic{
+  display: block;
+  width: 85%;
+  height: auto;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.thumbnail{
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.caption {
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 9px;
+  text-color: black;
+  white-space: nowrap;
+  font-size: small;
+  display: flex;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+    margin: 0 0 10px;
+}
+
